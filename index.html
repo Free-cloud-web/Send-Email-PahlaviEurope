@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Send Email</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6BG8KV70C"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-G6BG8KV70C');
+</script>
+
+<script>
+
+const subjects = [
+"Expressing Gratitude for Conferring the 2026 Freedom Prize on Iranians via Crown Prince Reza Pahlavi",
+"Sincere Appreciation for Awarding the 2026 Freedom Prize to Iran with Crown Prince Reza Pahlavi as Representative",
+"Warm Appreciation for the 2026 Freedom Prize Awarded to the Iranian People and Crown Prince Reza Pahlavi",
+"Profound Thanks for Awarding the 2026 Freedom Prize to Iran’s Citizens via Crown Prince Reza Pahlavi",
+"Thank You for Honoring the Iranian People and Crown Prince Reza Pahlavi with the 2026 Freedom Prize",
+"Gratitude for Recognizing the Iranian Nation via Crown Prince Reza Pahlavi with the 2026 Freedom Prize",
+"Deep Thanks for Selecting the Iranian People and Crown Prince Reza Pahlavi for the 2026 Freedom Prize",
+"Expressing Gratitude for the 2026 Freedom Prize Dedicated to Iran’s Nation and Crown Prince Reza Pahlavi",
+"Heartfelt Appreciation for Awarding the 2026 Freedom Prize to Iranians Represented by Crown Prince Reza Pahlavi",
+"Sincere Thanks for Bestowing the 2026 Freedom Prize on the Iranian Nation via Crown Prince Reza Pahlavi"
+];
+
+const bodies = [
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We send this letter as Iranian citizens to convey our heartfelt appreciation for your decision to grant the 2026 Freedom Prize (Freiheitspreis) to the people of Iran, and for asking Crown Prince Reza Pahlavi to accept this honor on our behalf.
+
+Your decision highlights a noble commitment to recognizing those who fight tirelessly for civil liberties, democracy, and political rights.
+
+We fully concur with your recognition of Crown Prince Reza Pahlavi as our representative. His persistent efforts for national unity, secular governance, and human rights genuinely reflect the desires of the Iranian society.
+
+The solidarity offered by the Friedrich Naumann Foundation and the people of Germany provides vital moral support. Celebrating our fight for liberty in Frankfurt inspires everyone striving for a democratic Iran.
+
+Thank you once more for standing on the right side of history and offering your unwavering support to the Iranian people.
+
+With warm regards and sincere thanks,
+The People of Iran`,
+  
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We are reaching out as a collective of Iranians to express our deep gratitude for your remarkable choice to dedicate the 2026 Freedom Prize (Freiheitspreis) to the nation of Iran, and for inviting Crown Prince Reza Pahlavi to accept this award on our behalf.
+
+This award reflects your strong dedication to the ideals of freedom, human dignity, civil equality, and international solidarity.
+
+We firmly support the invitation extended to Crown Prince Reza Pahlavi to stand as our representative. He has long been a dedicated defender of secular democracy and human rights, carrying our voice to the global community.
+
+The steadfast alliance of the Friedrich Naumann Foundation and the German people brings immense motivation to our struggle. Honoring our cause on such a respected platform in Frankfurt is truly historic.
+
+Thank you once again for supporting our democratic journey and standing firmly with the Iranian people.
+
+With deepest respect and warm regards,
+The People of Iran`,
+
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We write to you as Iranian citizens to voice our profound thanks for your historic decision to award the 2026 Freedom Prize (Freiheitspreis) to the Iranian people, and for inviting Crown Prince Reza Pahlavi to receive this honor as our representative.
+
+Your choice underlines a commendable understanding of our ongoing campaign for human rights, democratic governance, and fundamental liberties.
+
+We strongly endorse Crown Prince Reza Pahlavi as the custodian of this award. His unwavering dedication to a free, secular, and democratic Iran reflects the true will and aspirations of our brave population.
+
+The compassion and support of the Friedrich Naumann Foundation and the people of Germany mean the world to us. Commemorating our path to freedom in Frankfurt serves as a powerful beacon of hope.
+
+We thank you again for taking a clear stance for democracy and for supporting the Iranian nation in its fight for liberty.
+
+With utmost regards and appreciation,
+The People of Iran`,
+
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We are writing as members of the Iranian nation to convey our immense gratitude for your decision to name the people of Iran as recipients of the 2026 Freedom Prize (Freiheitspreis), and for inviting Crown Prince Reza Pahlavi to accept it on our behalf.
+
+This meaningful tribute reflects your true understanding of our people’s dedication to secular democracy, basic civil rights, and human liberty.
+
+We wholeheartedly reaffirm Crown Prince Reza Pahlavi as our legitimate advocate for this occasion. He has consistently fought for democratic transition and national unity, articulating our hopes with dignity on the international stage.
+
+We are deeply grateful for the solidarity shown by your foundation and the German people. Shining a light on our struggle at such a landmark event in Frankfurt strengthens our determination.
+
+Thank you once more for your courageous support and for standing shoulder to shoulder with the Iranian public for a free future.
+
+With high regards and deep gratitude,
+The People of Iran`,
+
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We extend our warmest greetings as Iranian citizens to express our sincere appreciation for your decision to bestow the 2026 Freedom Prize (Freiheitspreis) upon the people of Iran, while inviting Crown Prince Reza Pahlavi to accept this honor as our representative.
+
+Your initiative demonstrates a clear commitment to supporting those who strive for fundamental rights, secular democracy, and the rule of law.
+
+We completely back your decision to designate Crown Prince Reza Pahlavi as the recipient for this award. He has remained an inspiring figure for unity and democratic values, faithfully projecting our desire for freedom to international audiences.
+
+The solidarity extended by the Friedrich Naumann Foundation and Germany brings immense hope to our community. Honoring our collective struggle on your historic stage in Frankfurt is truly uplifting.
+
+Thank you again for standing firmly on the side of justice and supporting the Iranian nation in its journey toward democracy.
+
+With sincere respect and appreciation,
+The People of Iran`,
+
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We write to you today as proud Iranians to deliver our heartfelt thanks for your decision to assign the 2026 Freedom Prize (Freiheitspreis) to our nation, and for formally inviting Crown Prince Reza Pahlavi to accept this honor on behalf of our people.
+
+Your commendable act signals true moral clarity regarding our long-standing efforts to achieve freedom, human rights, justice, and democratic self-determination.
+
+We fully support your gesture in naming Crown Prince Reza Pahlavi to receive this recognition. Throughout many years, he has served as a unifying voice for secular democracy, accurately presenting the aspirations of our people abroad.
+
+The friendship and support shown by the Friedrich Naumann Foundation and the German community resonate deeply with us. Highlighting our fight in Frankfurt reinforces our courage during these challenging times.
+
+We offer our sincere gratitude for your continued alliance and for championing the cause of liberty alongside the Iranian public.
+
+With highest respect and warm wishes,
+The People of Iran`,
+
+`Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We are contacting you as Iranian individuals to share our utmost respect and appreciation for your decision to dedicate the 2026 Freedom Prize (Freiheitspreis) to the people of Iran, and to invite Crown Prince Reza Pahlavi to accept this prestigious award in our place.
+
+This gesture displays a profound awareness of the struggle our society endures in pursuit of fundamental liberties, democratic rights, and political justice.
+
+We enthusiastically endorse the choice of Crown Prince Reza Pahlavi as the guardian of this honor. He has devotedly represented our national desire for a secular democracy, conveying our legitimate democratic demands to the world.
+
+We are profoundly touched by the commitment of the Friedrich Naumann Foundation and the citizens of Germany. Recognizing our fight on such a respected platform in Frankfurt energizes our resolve for freedom.
+
+Thank you once more for upholding democratic values and standing together with the Iranian people in our march toward liberty.
+
+With utmost respect and warm regards,
+The People of Iran`,
+
+  `Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We reach out today as members of the Iranian public to convey our overwhelming thanks for your remarkable decision to grant the 2026 Freedom Prize (Freiheitspreis) to the nation of Iran, and for extending an invitation to Crown Prince Reza Pahlavi to accept it on our behalf.
+
+Your choice stands as a powerful acknowledgment of our people's courage in fighting for democratic rule, fundamental human rights, and civic equality.
+
+We fully align with your recognition of Crown Prince Reza Pahlavi to stand as our country's representative. He has continually embodied the ideals of unity and democratic renewal, articulating our shared vision for a secular and free nation.
+
+The solidarity demonstrated by your organization and the German nation is deeply appreciated. Honoring our fight for democracy in Frankfurt offers incredible moral support to millions of Iranians.
+
+We express our sincere thanks for your unwavering solidarity and for standing with the Iranian people at this critical juncture.
+
+With profound respect and appreciation,
+The People of Iran`,
+
+  `Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We send this message as Iranian citizens to extend our deepest gratitude for your inspiring decision to confer the 2026 Freedom Prize (Freiheitspreis) upon the Iranian nation, while inviting Crown Prince Reza Pahlavi to accept this historic recognition in our name.
+
+This thoughtful action highlights your profound respect for our ongoing struggle for basic freedoms, democratic governance, civil rights, and justice.
+
+We wholeheartedly affirm Crown Prince Reza Pahlavi as the rightful representative to receive this tribute. He has consistently championed secular democracy and human dignity, serving as a trusted advocate for our nation’s aspirations worldwide.
+
+The genuine support offered by the Friedrich Naumann Foundation and the people of Germany means a great deal to us. Celebrating our struggle at your prestigious venue in Frankfurt provides powerful encouragement to our society.
+
+Thank you again for remaining on the right side of history and supporting our relentless pursuit of freedom.
+
+With highest consideration and respectful greetings,
+The People of Iran`,
+
+ `Dear Leadership and Members of the Friedrich Naumann Foundation for Freedom,
+
+We are writing on behalf of a group of Iranians to express our immense appreciation for your honorable choice to present the 2026 Freedom Prize (Freiheitspreis) to the people of Iran, and for inviting Crown Prince Reza Pahlavi to receive this distinguished honor as our representative.
+
+Your decision demonstrates a clear recognition of our enduring quest for liberty, democratic principles, human rights, and the rule of law.
+
+We fully endorse your designation of Crown Prince Reza Pahlavi as the trustee of this award. For decades, he has remained a steadfast voice for national unity and secular democracy, genuinely representing our collective democratic hopes on the global stage.
+
+We are deeply moved by the solidarity shown by the Friedrich Naumann Foundation and the German public. Elevating our democratic movement through such a prominent stage in Frankfurt brings renewed strength to our cause.
+
+Thank you once more for standing alongside the people of Iran during our historical movement toward a free future.
+
+With warm regards and great respect,
+The People of Iran`
+];
+
+function sendEmail(){
+
+const subject = subjects[Math.floor(Math.random() * subjects.length)];
+const body = bodies[Math.floor(Math.random() * bodies.length)];
+
+gtag('event','mailto_open',{
+event_category:'Email Campaign',
+event_label:'GitHub Redirect'
+});
+
+const mailto =
+"mailto:service@freiheit.org"
++ "?bcc=presse@freiheit.org,usa@freiheit.org"
++ "&subject=" + encodeURIComponent(subject) 
++ "&body=" + encodeURIComponent(body);
+
+window.location.href = mailto;
+
+}
+
+window.onload = sendEmail;
+
+</script>
+
+</head>
+
+<body>
+<p>اگه شما این پیام رو قبل از بازشدن ایمیل تون و کلیک روی ارسال می بینین. روی سه نقطه بالا سمت راست بزنین </p>
+ <p> Open in External Browser </p>
+</body>
+</html>
